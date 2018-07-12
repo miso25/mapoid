@@ -24,7 +24,7 @@ fillColor | data-fill-color  |   | fillColor
 fillOpacity | data-fill-opacity  |  | fillOpacity
 fadeTime | data-fade-time  |   | fadeTime
 selectOnClick | data-select-on-click  |   | selectOnClick
-
+ |  |   | 
 click | data-select-on-click  |   | callback function called on click
 dblclick | data-select-on-click  |   | callback function called on dblclick
 mousedown | data-select-on-click  |   | callback function called on mousedown
@@ -35,7 +35,7 @@ mousemove | data-select-on-click  |   | callback function called on mousemove
 mouseleave | data-select-on-click  |   | callback function called on mouseleave
 hoverIn | data-select-on-click  |   | callback function called on hoverIn
 hoverOut | data-select-on-click  |   | callback function called on hoverOut
-
+ |  |   | 
 selectAll | -  |   | feature to select all areas
 hoverOut | -  |   | feature to deselect all areas
 

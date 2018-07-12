@@ -18,12 +18,13 @@ A complete listing of the plugin options.
 
 Option | Data Attribute | Default | Description
 ----|------|----|----
-strokeColor | data-stroke-color  |   | strokeColor
-strokeWidth | data-stroke-width  |   | strokeWidth
-fillColor | data-fill-color  |   | fillColor
-fillOpacity | data-fill-opacity  |  | fillOpacity
-fadeTime | data-fade-time  |   | fadeTime
-selectOnClick | data-select-on-click  |   | selectOnClick
+strokeColor | data-stroke-color  |  black | strokeColor
+strokeWidth | data-stroke-width  | 1  | strokeWidth
+fillColor | data-fill-color  |  black | fillColor
+fillOpacity | data-fill-opacity  | 0.5 | fillOpacity
+fadeTime | data-fade-time  |  500 | fadeTime
+selectedArea | data-select-on-click  | false  | selectedArea
+selectOnClick | data-select-on-click  |  true | selectOnClick
  |  |   | 
 click | data-select-on-click  |   | callback function called on click
 dblclick | data-select-on-click  |   | callback function called on dblclick

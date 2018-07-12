@@ -3,15 +3,15 @@ Mapoid is a jQuery plugin to create responsive html map area highlighter with ar
 # Requirements
 Mapoid plugin requires the latest version of jQuery. Also you can include waypoints plugin to execute the counting after you scroll to the countid element
 # Usage basic
-jsFiddle example for [basic example](https://jsfiddle.net/miso25/s5qf1tLh/13/) 
-# Usage - adding some styles to highlighted areas
-jsFiddle example for [styles example](https://jsfiddle.net/miso25/fop56gmq/1/) 
-# Usage - callback functions
-jsFiddle example for [callback example](https://jsfiddle.net/miso25/8tkqfv0m/14/) 
-# Usage - select all feature
-jsFiddle example for [select all example](https://jsfiddle.net/miso25/vhdt3q6b/4/) 
-# Usage - deselect all feature
-jsFiddle example for [deselect all example](https://jsfiddle.net/miso25/ba073sou/) 
+Usage basic jsFiddle example for [basic example](https://jsfiddle.net/miso25/s5qf1tLh/13/) 
+# Styles
+Usage - adding some styles to highlighted areas. jsFiddle example for [styles example](https://jsfiddle.net/miso25/fop56gmq/1/) 
+# Callback
+Usage - callback functions. jsFiddle example for [callback example](https://jsfiddle.net/miso25/8tkqfv0m/14/) 
+# Select ALL
+Usage - select all feature. jsFiddle example for [select all example](https://jsfiddle.net/miso25/vhdt3q6b/4/) 
+# Deselect ALL
+Usage - deselect all feature. jsFiddle example for [deselect all example](https://jsfiddle.net/miso25/ba073sou/) 
 
 # Options
 A complete listing of the plugin options.

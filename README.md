@@ -5,9 +5,13 @@ Mapoid plugin requires the latest version of jQuery. Also you can include waypoi
 # Usage basic
 jsFiddle example for [basic example](https://jsfiddle.net/miso25/s5qf1tLh/13/) 
 # Usage - adding some styles to highlighted areas
-jsFiddle example for [basic example](https://jsfiddle.net/miso25/fop56gmq/1/) 
+jsFiddle example for [styles example](https://jsfiddle.net/miso25/fop56gmq/1/) 
 # Usage - callback functions
-jsFiddle example for [basic example](https://jsfiddle.net/miso25/fop56gmq/1/) 
+jsFiddle example for [callback example](https://jsfiddle.net/miso25/8tkqfv0m/14/) 
+# Usage - select all feature
+jsFiddle example for [select all example](https://jsfiddle.net/miso25/vhdt3q6b/4/) 
+# Usage - deselect all feature
+jsFiddle example for [deselect all example](https://jsfiddle.net/miso25/ba073sou/) 
 
 # Options
 A complete listing of the plugin options.
@@ -31,5 +35,8 @@ mousemove | data-select-on-click  |   | callback function called on mousemove
 mouseleave | data-select-on-click  |   | callback function called on mouseleave
 hoverIn | data-select-on-click  |   | callback function called on hoverIn
 hoverOut | data-select-on-click  |   | callback function called on hoverOut
+
+selectAll | -  |   | feature to select all areas
+hoverOut | -  |   | feature to deselect all areas
 
 

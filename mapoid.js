@@ -325,11 +325,13 @@
 			var w = self.image.attr('width')
 			var h = self.image.attr('height')
 			var wd = self.image.width()
+			var hg = self.image.height()
 			//var	hg = this.image.height()
 			//var wPercent = this.image.width()/100
 			//var	hPercent = this.image.height()/100
 			
-			var proportion = (wd / w) * 100;
+			var proportionWide = (wd / w) * 100;
+			var proportionHeight = (hg / h) * 100;
 			
 			
 			
@@ -341,10 +343,15 @@
 				$this.data(c, $this.attr(c));
 				var coords = $this.data(c).split(','),
 				coordsPercent = new Array(coords.length);
-				for (var i = 0; i < coordsPercent.length; ++i) 
+				for (var i = 0; i < coordsPercent.length - 1; ++i) 
 				{
-					coordsPercent[i] = ((coords[i])*proportion) / 100
-									
+					coordsPercent[i] = ((coords[i])*proportionWide) / 100;
+					++i;				
+				}
+				for (var i = 1; i < coordsPercent.length ; ++i) 
+				{
+					coordsPercent[i] = ((coords[i])*proportionHeight) / 100;
+					++i;				
 				}
 				
 				//Change old coordinates to new
